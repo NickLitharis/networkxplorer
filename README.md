@@ -59,13 +59,13 @@ To get started with the code snippets in this repository, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/network-analysis.git
+   git clone https://github.com/your-username/NetworkXplorer.git
    ```
 
 2. Navigate to the project directory:
 
    ```
-   cd network-analysis
+   cd NetworkXplorer
    ```
 
 3. Install the required dependencies using pip:
