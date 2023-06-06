@@ -1,6 +1,8 @@
 data/json/
 data/pdf/
+build/
 images/
 report.md
 Makefile
 semantic_web.zip
+.gitignore
