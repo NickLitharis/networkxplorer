@@ -5,4 +5,5 @@ images/
 report.md
 Makefile
 semantic_web.zip
+semantic_part_a.py
 .gitignore
