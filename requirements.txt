@@ -1,4 +1,10 @@
-matplotlib==3.7.1
-networkx==3.1
-pandas==2.0.2
+# Versions verified against the committed datasets with ego_net.py and user_friends.py.
+# scipy is imported indirectly by the networkx graph metrics and was missing here.
+matplotlib==3.11.2
+networkx==3.7
+pandas==3.0.6
+scipy==1.18.1
+
+# Only used by semantic_part_a.py. Twitter's v1.1 API was retired, so that script
+# no longer runs; the pin is kept so the historical dependency is not silently lost.
 python_twitter==3.5

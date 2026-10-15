@@ -4,7 +4,7 @@ Social network analysis toolkit built with NetworkX. Analyzes ego networks and f
 
 Built as part of a university course on semantic web and social networks.
 
-![Python](https://img.shields.io/badge/Python-3.8%2B-3776AB?logo=python)
+![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python)
 ![NetworkX](https://img.shields.io/badge/NetworkX-2.x-orange)
 ![Matplotlib](https://img.shields.io/badge/Matplotlib-3.x-blue)
 

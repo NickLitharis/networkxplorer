@@ -7,3 +7,5 @@ Makefile
 semantic_web.zip
 semantic_part_a.py
 .gitignore
+# virtual environments
+.venv/
