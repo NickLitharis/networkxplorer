@@ -34,7 +34,7 @@ Three analysis scripts, each targeting a different network structure:
 ```bash
 git clone https://github.com/NickLitharis/networkxplorer
 cd networkxplorer
-pip install -r requirements.txt
+uv sync
 ```
 
 ---
@@ -43,10 +43,10 @@ pip install -r requirements.txt
 
 ```bash
 # Ego network analysis
-python ego_net.py
+uv run ego_net.py
 
 # Friendship graph analysis
-python user_friends.py
+uv run user_friends.py
 ```
 
 For `semantic_part_a.py`, add your Twitter API keys to `data/json/keys.json`:
@@ -59,6 +59,10 @@ For `semantic_part_a.py`, add your Twitter API keys to `data/json/keys.json`:
   "access_secret": "..."
 }
 ```
+
+> **Note:** Twitter's v1.1 API was retired, so `semantic_part_a.py` no longer runs.
+> The `python_twitter` dependency is kept so the historical code is not silently
+> broken; the two graph scripts above are unaffected.
 
 ---
 

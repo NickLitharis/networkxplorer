@@ -1,0 +1,21 @@
+[project]
+name = "networkxplorer"
+version = "0.1.0"
+description = "Social network analysis with NetworkX - degree, path-length, clustering and degree-distribution metrics"
+readme = "README.md"
+requires-python = ">=3.12"
+license = "MIT"
+# Exact versions verified against the committed datasets in a clean environment.
+dependencies = [
+    "matplotlib==3.11.2",
+    "networkx==3.7",
+    "pandas==3.0.6",
+    "scipy==1.18.1",
+    # Only semantic_part_a.py uses this. Twitter's v1.1 API is retired, so that script
+    # no longer runs; the pin is kept so the historical dependency is not lost.
+    "python_twitter==3.5",
+]
+
+# Script collection, not a distributable package.
+[tool.uv]
+package = false
